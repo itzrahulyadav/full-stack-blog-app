@@ -1,0 +1,9 @@
+<%- include('header') -%>
+<h1>Compose</h1>
+<form method = "post" action = "/compose">
+    <label>New Post</label>
+    <input type = "text" name = "postTitle" />
+    <textarea name = 'postBody' row = "5" cols = "30"></textarea>
+    <button type = "submit" name = "button">Submit</button>
+</form>
+<%- include('footer') -%>
